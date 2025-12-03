@@ -20,7 +20,7 @@ int main(int argc, char* argv[]){
                     pos=j;
                 }
             }
-            for(int k=0;k<i;k++) max*=10;
+            joltage*=10;
             joltage+=max;
         }
         sum+=joltage;
